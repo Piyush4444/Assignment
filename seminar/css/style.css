@@ -20,6 +20,11 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+.img-content {
+    width: 587px;
+    height: 360px;
+}
+
 /* ///////////..utility classes../////////// */
 
 .container {
