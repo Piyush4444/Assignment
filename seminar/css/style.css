@@ -20,10 +20,11 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-.img-content {
-    width: 587px;
-    height: 360px;
-}
+/* .img-container {
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+} */
 
 /* ///////////..utility classes../////////// */
 
