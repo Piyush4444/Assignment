@@ -1,85 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Assignment Solution for Module 2</title>
+    <title>module3-solution</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body id="body">
     <header>
-        <div class="menu">
-            <h2>
-              Our Menu
-            </h2>
-          </div>
-    </header>
-    <main class="main">
+      <nav class="navbar" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="Brand">Food,LLC</a>
 
-      <!-- 1st Section for chicken  -->
-      <section class="items col-lg col-md col-sm" id="item1">
-        <div class="title" id="title1">
-          <h3>
-            Chicken
-          </h3>
+          <button
+            class="navbar-toggler d-block d-sm-none butt"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-center butt"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#Chicken">Chicken</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Beef">Beef</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Sushi">Sushi</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="item-text" id="item1">
-          <p>
-            When it comes to writing a menu, word choice is critical. 
-            Although menu pricing is important, 
-            the words you use to describe your food and 
-            how you make your menu could entice customers and 
-            increase sales if properly chosen. Conversely, 
-            a poorly written menu can turn customers off or confuse them if you’re not careful. 
-          </p>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container text-center MyMenu">
+        <h2>Our Menu</h2>
+      </div>
+
+      <div class="container-fluid">
+        <!-- 1st Section for chicken  -->
+        <div class="card col-lg-4 col-md-6 col-sm-12 float-md-start cont">
+          <div class="card-body items" id="item1">
+            <h5 class="card-title text-center title" id="Chicken">Chicken</h5>
+            <p class="card-text item-text">
+              When it comes to writing a menu, word choice is critical. Although
+              menu pricing is important, the words you use to describe your food
+              and how you make your menu could entice customers and increase
+              sales if properly chosen. Conversely, a poorly written menu can
+              turn customers off or confuse them if you’re not careful.
+            </p>
+          </div>
         </div>
 
         <!-- 2nd Section for Beef  -->
-      </section>
-      <section class="items col-lg col-md col-sm" id="item2">
-        <div class="title" id="title2">
-          <h3>
-            Beef
-          </h3>
-        </div>
-        <div class="item-text" id="item2">
-          <p>
-            When it comes to writing a menu, word choice is critical. 
-            Although menu pricing is important, 
-            the words you use to describe your food and 
-            how you make your menu could entice customers and 
-            increase sales if properly chosen. Conversely, 
-            a poorly written menu can turn customers off or confuse them if you’re not careful. 
-          </p>
-        </div>
-      </section>
-
-      <!-- 3rd Section for Sushi  -->
-      <section class="items col-lg col-md col-sm" id="item3">
-        <div class="title" id="title3">
-            <h3>
-              Sushi
-            </h3>
+        <div class="card col-lg-4 col-md-6 col-sm-12 float-md-start cont">
+          <div class="card-body items" id="item2">
+            <h5 class="card-title text-center title" id="Beef">Beef</h5>
+            <p class="card-text item-text">
+              When it comes to writing a menu, word choice is critical. Although
+              menu pricing is important, the words you use to describe your food
+              and how you make your menu could entice customers and increase
+              sales if properly chosen. Conversely, a poorly written menu can
+              turn customers off or confuse them if you’re not careful.
+            </p>
           </div>
         </div>
-        <div class="item-text" id="item3">
-          <p>
-            When it comes to writing a menu, word choice is critical. 
-            Although menu pricing is important, 
-            the words you use to describe your food and 
-            how you make your menu could entice customers and 
-            increase sales if properly chosen. Conversely, 
-            a poorly written menu can turn customers off or confuse them if you’re not careful. 
-          </p>
+
+        <!-- 3rd Section for Sushi  -->
+        <div class="card col-lg-4 col-md-12 col-sm-12 float-md-start cont">
+          <div class="card-body items" id="item3">
+            <h5 class="card-title text-center title" id="Sushi">Sushi</h5>
+            <p class="card-text item-text">
+              When it comes to writing a menu, word choice is critical. Although
+              menu pricing is important, the words you use to describe your food
+              and how you make your menu could entice customers and increase
+              sales if properly chosen. Conversely, a poorly written menu can
+              turn customers off or confuse them if you’re not careful.
+            </p>
+          </div>
         </div>
-      </section>
+        <a href="#Brand" class="btn d-block d-sm-none btn-sm">Back to Top</a>
+      </div>
     </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

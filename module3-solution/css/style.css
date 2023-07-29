@@ -1,0 +1,73 @@
+/* ********* Base styles ********* */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    clear: right;
+    box-sizing: border-box;
+}
+
+#nav {
+    background-color: #F2EAD3;
+}
+
+.butt {
+    background-color: #DFD7BF;
+}
+
+#navbarSupportedContent {
+    border-radius: 8px;
+}
+
+.nav-item {
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+.MyMenu {
+    padding-top: 3%;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Brand {
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#body {
+    background-color: #EEEEEE;
+}
+
+.items {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: rgb(151, 151, 151);
+    font-family: 'Caveat', cursive;
+    font-size: 115%;
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#item1 {
+    background-color: #FFFBEB;
+}
+
+#item2 {
+    background-color: #FFC4C4;
+}
+
+#item3 {
+    background-color: #D0F5BE;
+}
+
+.item-text {
+    padding: 2%;
+}
+
+.cont {
+    padding: 4%;
+    background-color: #EEEEEE;
+    border: 0px;
+}
