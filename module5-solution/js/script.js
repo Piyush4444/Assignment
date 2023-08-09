@@ -9,6 +9,9 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 });
 
+
+console.log(menuItemsUrl + categoryShort + ".json");
+
 (function (global) {
 
   var dc = {};
